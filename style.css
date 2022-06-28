@@ -1,0 +1,114 @@
+nav {
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+   }
+
+   .nav2 {
+
+    position: relative;
+    top: 10px;
+    left: 710px;
+
+   }
+
+   nav a {
+    color: rgb(77, 73, 73);
+    padding: 8px;
+    text-decoration: none;
+   }
+   nav a:hover {
+    background-color: lightgrey;
+    color: black;
+    padding: 8px;
+    border-radius: 15px;
+   }
+
+   h2 {
+
+    position: absolute;
+    top: 45px;
+    left: 555px;
+    color:rgb(56, 53, 53);
+
+   }
+
+   #code {
+
+   max-width: 2150px;
+   max-height: 1300px;
+   border-radius: 25px;
+   position: absolute;
+   top: 120px;
+   left: 505px;
+
+   }
+
+   body {
+
+    background-color: rgb(216, 215, 212);
+   }
+   
+   footer {
+
+   position: absolute;
+   top: 750px;
+   color: crimson;
+   z-index: 1;
+
+
+   }
+
+   #Colorcrown {
+    position: absolute;
+    top: 220px;
+    left: 550px;
+    font-weight: bold;
+    background-size: 800% 800%;
+    font-size: 36px;
+    width: 600px;
+    background-image: repeating-linear-gradient(45deg, white, rgb(5, 70, 5), rgb(54, 80, 12),rgb(9, 75, 75) ,rgb(30, 116, 73), rgb(214, 150, 54), orange, rgb(95, 10, 10), rgb(139, 17, 17), rgb(177, 111, 25));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 8s ease infinite;
+    z-index:2;
+    font-family: Helvetica;
+    }
+    @keyframes rainbow {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 25%}
+      100%{background-position:0% 50%}
+      }
+
+
+
+      #prodposition {
+
+        position: absolute;
+        top: 180px;
+        left: 345px;
+        border-radius: 7px;
+        width: 900px;
+      }
+
+      
+      .Audio {
+
+        position: absolute;
+        top: 500px;
+        left: 705px;
+        font-size: 18px;
+
+      }
+
+      #navbar {
+
+        position: absolute;
+        left: 745px;
+     
+      }
